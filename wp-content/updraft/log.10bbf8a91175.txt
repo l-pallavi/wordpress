@@ -1,0 +1,1405 @@
+0000.001 (0) Opened log file at time: Sun, 13 Oct 2024 15:42:46 +0000 on http://localhost/wordpress
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 95.6M | 100M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 246049.9 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.020 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.031 (0) Set semaphore last lock (fd) time to 2024-10-13 15:42:46
+0000.034 (0) Semaphore lock (fd) complete
+0000.047 (0) Backup run: resumption=0, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 600 seconds (1728834766) in case this run gets aborted
+0000.074 (0) Checking if we have a zip executable available
+0000.079 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.081 (0) Creation of backups of directories: beginning
+0000.092 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0012.983 (0) Total entities for the zip file: 2199 directories, 9915 files (0 skipped as non-modified), 210.1 MB
+0012.988 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 215140.1 KB, split: 409600 KB)
+0013.136 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.259 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0013.386 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0013.535 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0013.668 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0013.801 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0013.935 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0014.073 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0014.206 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0014.352 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0014.495 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0014.627 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0014.760 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0014.899 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0015.038 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0015.165 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0015.293 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0015.426 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0015.551 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0015.680 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0015.811 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0015.945 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0016.071 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0016.197 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0016.334 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0016.456 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0016.586 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0016.717 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0016.868 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0016.992 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0017.117 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0017.235 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0017.368 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0017.507 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0017.638 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0017.763 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0017.889 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0018.020 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0018.145 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0018.269 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0018.399 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0018.533 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0018.649 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0018.767 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0018.894 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0019.023 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0019.146 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0019.281 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0019.425 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0019.547 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0019.689 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0019.796 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0019.873 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0019.948 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0020.025 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0020.103 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0020.189 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0020.281 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0020.363 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0020.458 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0020.621 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0020.762 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0020.930 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0021.054 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0021.173 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0021.301 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0021.433 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0021.579 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0021.722 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0021.875 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0022.018 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0022.161 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0022.289 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0022.422 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0022.554 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0022.685 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0022.810 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0022.954 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0023.077 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0023.205 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0023.341 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0023.473 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0023.604 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0023.729 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0023.858 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0023.978 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8600 files added (on-disk size: 0 KB)
+0024.104 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8700 files added (on-disk size: 0 KB)
+0024.232 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8800 files added (on-disk size: 0 KB)
+0024.365 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8900 files added (on-disk size: 0 KB)
+0024.512 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0024.648 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0024.787 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9200 files added (on-disk size: 0 KB)
+0024.919 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9300 files added (on-disk size: 0 KB)
+0025.017 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9400 files added (on-disk size: 0 KB)
+0025.137 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9500 files added (on-disk size: 0 KB)
+0025.235 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9600 files added (on-disk size: 0 KB)
+0025.363 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9700 files added (on-disk size: 0 KB)
+0025.483 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9800 files added (on-disk size: 0 KB)
+0025.590 (0) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9900 files added (on-disk size: 0 KB)
+0623.622 (1) Opened log file at time: Sun, 13 Oct 2024 15:53:09 +0000 on http://localhost/wordpress
+0623.630 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 91.6M | 94M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0623.638 (1) Free space on disk containing Updraft's temporary directory: 244754.7 MB
+0623.642 (1) Requesting backup semaphore lock (10bbf8a91175)
+0623.648 (1) [Debug] Lock option (updraft_lock_10bbf8a91175, wp_options) was created in the database
+0623.650 (1) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired after initialising the database
+0623.655 (1) Backup run: resumption=1, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (623s ago), job type=backup
+0623.661 (1) Scheduling a resumption (2) after 600 seconds (1728835389) in case this run gets aborted
+0623.689 (1) Checking if we have a zip executable available
+0623.692 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0623.695 (1) Creation of backups of directories: had begun; will resume
+0623.703 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0623.714 (1) Terminate: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp exists with activity within the last 30 seconds (time_mod=1728834789, time_now=1728834789, diff=0, size=53940.2KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+0623.722 (1) Rescheduling resumption 2: moving to 720 seconds from now (1728835509)
+0623.731 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 120 = 720
+1348.771 (2) Opened log file at time: Sun, 13 Oct 2024 16:05:14 +0000 on http://localhost/wordpress
+1348.775 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 91.6M | 96M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+1348.777 (2) Free space on disk containing Updraft's temporary directory: 244711.9 MB
+1348.781 (2) Requesting backup semaphore lock (10bbf8a91175)
+1348.785 (2) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+1348.790 (2) Backup run: resumption=2, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (1348s ago), job type=backup, previous check-in=0.09s
+1348.795 (2) Scheduling a resumption (3) after 720 seconds (1728836234) in case this run gets aborted
+1348.818 (2) Checking if we have a zip executable available
+1348.820 (2) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+1348.822 (2) Creation of backups of directories: had begun; will resume
+1348.829 (2) Beginning creation of dump of plugins (split every: 400 MB)
+1348.835 (2) File exists (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1728835065, time_now=1728835514, diff=449)
+1349.057 (2) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: Zip file already exists, with 9048 files
+1363.440 (2) Total entities for the zip file: 2235 directories, 10133 files (0 skipped as non-modified), 212.1 MB
+1363.445 (2) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 217239.3 KB, split: 409600 KB)
+1363.523 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 100 files added (on-disk size: 66926.3 KB)
+1363.626 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 200 files added (on-disk size: 66926.3 KB)
+1363.672 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 300 files added (on-disk size: 66926.3 KB)
+1363.687 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 400 files added (on-disk size: 66926.3 KB)
+1363.702 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 500 files added (on-disk size: 66926.3 KB)
+1363.715 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 600 files added (on-disk size: 66926.3 KB)
+1363.737 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 700 files added (on-disk size: 66926.3 KB)
+1363.758 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 800 files added (on-disk size: 66926.3 KB)
+1363.779 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 900 files added (on-disk size: 66926.3 KB)
+1363.801 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1000 files added (on-disk size: 66926.3 KB)
+1363.823 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1100 files added (on-disk size: 66926.3 KB)
+1363.847 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1200 files added (on-disk size: 66926.3 KB)
+1363.871 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1300 files added (on-disk size: 66926.3 KB)
+1363.893 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1400 files added (on-disk size: 66926.3 KB)
+1363.915 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1500 files added (on-disk size: 66926.3 KB)
+1363.937 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1600 files added (on-disk size: 66926.3 KB)
+1363.963 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1700 files added (on-disk size: 66926.3 KB)
+1363.985 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1800 files added (on-disk size: 66926.3 KB)
+1364.008 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1900 files added (on-disk size: 66926.3 KB)
+1364.029 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2000 files added (on-disk size: 66926.3 KB)
+1364.052 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2100 files added (on-disk size: 66926.3 KB)
+1364.073 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2200 files added (on-disk size: 66926.3 KB)
+1364.096 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2300 files added (on-disk size: 66926.3 KB)
+1364.123 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2400 files added (on-disk size: 66926.3 KB)
+1364.153 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2500 files added (on-disk size: 66926.3 KB)
+1364.175 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2600 files added (on-disk size: 66926.3 KB)
+1364.202 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2700 files added (on-disk size: 66926.3 KB)
+1364.226 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2800 files added (on-disk size: 66926.3 KB)
+1364.249 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2900 files added (on-disk size: 66926.3 KB)
+1364.280 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3000 files added (on-disk size: 66926.3 KB)
+1364.310 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3100 files added (on-disk size: 66926.3 KB)
+1364.332 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3200 files added (on-disk size: 66926.3 KB)
+1364.355 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3300 files added (on-disk size: 66926.3 KB)
+1364.379 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3400 files added (on-disk size: 66926.3 KB)
+1364.403 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3500 files added (on-disk size: 66926.3 KB)
+1364.425 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3600 files added (on-disk size: 66926.3 KB)
+1364.446 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3700 files added (on-disk size: 66926.3 KB)
+1364.471 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3800 files added (on-disk size: 66926.3 KB)
+1364.495 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3900 files added (on-disk size: 66926.3 KB)
+1364.519 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4000 files added (on-disk size: 66926.3 KB)
+1364.539 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4100 files added (on-disk size: 66926.3 KB)
+1364.562 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4200 files added (on-disk size: 66926.3 KB)
+1364.586 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4300 files added (on-disk size: 66926.3 KB)
+1364.614 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4400 files added (on-disk size: 66926.3 KB)
+1364.637 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4500 files added (on-disk size: 66926.3 KB)
+1364.659 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4600 files added (on-disk size: 66926.3 KB)
+1364.680 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4700 files added (on-disk size: 66926.3 KB)
+1364.700 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4800 files added (on-disk size: 66926.3 KB)
+1364.721 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4900 files added (on-disk size: 66926.3 KB)
+1364.745 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5000 files added (on-disk size: 66926.3 KB)
+1364.768 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5100 files added (on-disk size: 66926.3 KB)
+1364.791 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5200 files added (on-disk size: 66926.3 KB)
+1364.818 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5300 files added (on-disk size: 66926.3 KB)
+1364.850 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5400 files added (on-disk size: 66926.3 KB)
+1364.881 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5500 files added (on-disk size: 66926.3 KB)
+1364.908 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5600 files added (on-disk size: 66926.3 KB)
+1364.939 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5700 files added (on-disk size: 66926.3 KB)
+1364.966 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5800 files added (on-disk size: 66926.3 KB)
+1364.991 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5900 files added (on-disk size: 66926.3 KB)
+1365.017 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6000 files added (on-disk size: 66926.3 KB)
+1365.038 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6100 files added (on-disk size: 66926.3 KB)
+1365.059 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6200 files added (on-disk size: 66926.3 KB)
+1365.085 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6300 files added (on-disk size: 66926.3 KB)
+1365.109 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6400 files added (on-disk size: 66926.3 KB)
+1365.132 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6500 files added (on-disk size: 66926.3 KB)
+1365.155 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6600 files added (on-disk size: 66926.3 KB)
+1365.178 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6700 files added (on-disk size: 66926.3 KB)
+1365.201 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6800 files added (on-disk size: 66926.3 KB)
+1365.225 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6900 files added (on-disk size: 66926.3 KB)
+1365.246 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7000 files added (on-disk size: 66926.3 KB)
+1365.267 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7100 files added (on-disk size: 66926.3 KB)
+1365.291 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7200 files added (on-disk size: 66926.3 KB)
+1365.316 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7300 files added (on-disk size: 66926.3 KB)
+1365.339 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7400 files added (on-disk size: 66926.3 KB)
+1365.366 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7500 files added (on-disk size: 66926.3 KB)
+1365.391 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7600 files added (on-disk size: 66926.3 KB)
+1365.416 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7700 files added (on-disk size: 66926.3 KB)
+1365.440 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7800 files added (on-disk size: 66926.3 KB)
+1365.460 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7900 files added (on-disk size: 66926.3 KB)
+1365.486 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8000 files added (on-disk size: 66926.3 KB)
+1365.509 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8100 files added (on-disk size: 66926.3 KB)
+1365.532 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8200 files added (on-disk size: 66926.3 KB)
+1365.581 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8300 files added (on-disk size: 66926.3 KB)
+1365.807 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8400 files added (on-disk size: 66926.3 KB)
+1366.022 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8500 files added (on-disk size: 66926.3 KB)
+1366.230 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8600 files added (on-disk size: 66926.3 KB)
+1366.431 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8700 files added (on-disk size: 66926.3 KB)
+1366.668 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8800 files added (on-disk size: 66926.3 KB)
+1366.879 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8900 files added (on-disk size: 66926.3 KB)
+1367.089 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9000 files added (on-disk size: 66926.3 KB)
+1367.285 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9100 files added (on-disk size: 66926.3 KB)
+1367.499 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9200 files added (on-disk size: 66926.3 KB)
+1367.729 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9300 files added (on-disk size: 66926.3 KB)
+1368.052 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9400 files added (on-disk size: 66926.3 KB)
+1368.371 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9500 files added (on-disk size: 66926.3 KB)
+1368.708 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9600 files added (on-disk size: 66926.3 KB)
+1369.133 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9700 files added (on-disk size: 66926.3 KB)
+1369.490 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9800 files added (on-disk size: 66926.3 KB)
+1369.869 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9900 files added (on-disk size: 66926.3 KB)
+1370.266 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10000 files added (on-disk size: 66926.3 KB)
+1370.643 (2) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10100 files added (on-disk size: 66926.3 KB)
+2075.670 (3) Opened log file at time: Sun, 13 Oct 2024 16:17:21 +0000 on http://localhost/wordpress
+2075.674 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 91.6M | 94M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+2075.678 (3) Free space on disk containing Updraft's temporary directory: 244386.3 MB
+2075.683 (3) Requesting backup semaphore lock (10bbf8a91175)
+2075.688 (3) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+2075.694 (3) Backup run: resumption=3, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (2075s ago), job type=backup
+2075.700 (3) Scheduling a resumption (4) after 720 seconds (1728836961) in case this run gets aborted
+2075.724 (3) Checking if we have a zip executable available
+2075.733 (3) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2075.741 (3) Creation of backups of directories: had begun; will resume
+2075.754 (3) Beginning creation of dump of plugins (split every: 400 MB)
+2075.760 (3) Deleting old temporary file: pclzip-670bedf98bd0f.tmp
+2075.782 (3) Terminate: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp exists with activity within the last 30 seconds (time_mod=1728836241, time_now=1728836241, diff=0, size=67055.6KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+2075.791 (3) Rescheduling resumption 4: moving to 840 seconds from now (1728837081)
+2075.800 (3) To decrease the likelihood of overlaps, increasing resumption interval to: 720 + 120 = 840
+2945.224 (4) Opened log file at time: Sun, 13 Oct 2024 16:31:51 +0000 on http://localhost/wordpress
+2945.228 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 91.6M | 96M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+2945.230 (4) Free space on disk containing Updraft's temporary directory: 244392.4 MB
+2945.235 (4) Requesting backup semaphore lock (10bbf8a91175)
+2945.240 (4) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+2945.244 (4) Backup run: resumption=4, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (2945s ago), job type=backup, previous check-in=0.11s
+2945.249 (4) Scheduling a resumption (5) after 840 seconds (1728837951) in case this run gets aborted
+2945.270 (4) Checking if we have a zip executable available
+2945.273 (4) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2945.276 (4) Creation of backups of directories: had begun; will resume
+2945.284 (4) Beginning creation of dump of plugins (split every: 400 MB)
+2945.289 (4) Deleting old temporary file: pclzip-670bf33dd5b40.tmp
+2945.306 (4) File exists (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1728836413, time_now=1728837111, diff=698)
+2945.543 (4) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: Zip file already exists, with 9048 files
+2957.286 (4) Total entities for the zip file: 2235 directories, 10133 files (0 skipped as non-modified), 212.1 MB
+2957.289 (4) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 217239.3 KB, split: 409600 KB)
+2957.352 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 100 files added (on-disk size: 67089.4 KB)
+2957.480 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 200 files added (on-disk size: 67089.4 KB)
+2957.546 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 300 files added (on-disk size: 67089.4 KB)
+2957.573 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 400 files added (on-disk size: 67089.4 KB)
+2957.595 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 500 files added (on-disk size: 67089.4 KB)
+2957.615 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 600 files added (on-disk size: 67089.4 KB)
+2957.635 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 700 files added (on-disk size: 67089.4 KB)
+2957.659 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 800 files added (on-disk size: 67089.4 KB)
+2957.682 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 900 files added (on-disk size: 67089.4 KB)
+2957.703 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1000 files added (on-disk size: 67089.4 KB)
+2957.723 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1100 files added (on-disk size: 67089.4 KB)
+2957.743 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1200 files added (on-disk size: 67089.4 KB)
+2957.764 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1300 files added (on-disk size: 67089.4 KB)
+2957.784 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1400 files added (on-disk size: 67089.4 KB)
+2957.805 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1500 files added (on-disk size: 67089.4 KB)
+2957.827 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1600 files added (on-disk size: 67089.4 KB)
+2957.848 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1700 files added (on-disk size: 67089.4 KB)
+2957.873 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1800 files added (on-disk size: 67089.4 KB)
+2957.900 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1900 files added (on-disk size: 67089.4 KB)
+2957.914 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2000 files added (on-disk size: 67089.4 KB)
+2957.934 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2100 files added (on-disk size: 67089.4 KB)
+2957.956 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2200 files added (on-disk size: 67089.4 KB)
+2957.970 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2300 files added (on-disk size: 67089.4 KB)
+2957.990 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2400 files added (on-disk size: 67089.4 KB)
+2958.004 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2500 files added (on-disk size: 67089.4 KB)
+2958.017 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2600 files added (on-disk size: 67089.4 KB)
+2958.030 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2700 files added (on-disk size: 67089.4 KB)
+2958.050 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2800 files added (on-disk size: 67089.4 KB)
+2958.071 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2900 files added (on-disk size: 67089.4 KB)
+2958.092 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3000 files added (on-disk size: 67089.4 KB)
+2958.107 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3100 files added (on-disk size: 67089.4 KB)
+2958.119 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3200 files added (on-disk size: 67089.4 KB)
+2958.133 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3300 files added (on-disk size: 67089.4 KB)
+2958.145 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3400 files added (on-disk size: 67089.4 KB)
+2958.158 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3500 files added (on-disk size: 67089.4 KB)
+2958.178 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3600 files added (on-disk size: 67089.4 KB)
+2958.191 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3700 files added (on-disk size: 67089.4 KB)
+2958.204 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3800 files added (on-disk size: 67089.4 KB)
+2958.216 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3900 files added (on-disk size: 67089.4 KB)
+2958.228 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4000 files added (on-disk size: 67089.4 KB)
+2958.241 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4100 files added (on-disk size: 67089.4 KB)
+2958.254 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4200 files added (on-disk size: 67089.4 KB)
+2958.267 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4300 files added (on-disk size: 67089.4 KB)
+2958.280 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4400 files added (on-disk size: 67089.4 KB)
+2958.300 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4500 files added (on-disk size: 67089.4 KB)
+2958.321 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4600 files added (on-disk size: 67089.4 KB)
+2958.334 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4700 files added (on-disk size: 67089.4 KB)
+2958.354 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4800 files added (on-disk size: 67089.4 KB)
+2958.375 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4900 files added (on-disk size: 67089.4 KB)
+2958.390 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5000 files added (on-disk size: 67089.4 KB)
+2958.403 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5100 files added (on-disk size: 67089.4 KB)
+2958.416 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5200 files added (on-disk size: 67089.4 KB)
+2958.430 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5300 files added (on-disk size: 67089.4 KB)
+2958.442 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5400 files added (on-disk size: 67089.4 KB)
+2958.463 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5500 files added (on-disk size: 67089.4 KB)
+2958.484 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5600 files added (on-disk size: 67089.4 KB)
+2958.497 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5700 files added (on-disk size: 67089.4 KB)
+2958.513 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5800 files added (on-disk size: 67089.4 KB)
+2958.529 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5900 files added (on-disk size: 67089.4 KB)
+2958.542 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6000 files added (on-disk size: 67089.4 KB)
+2958.555 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6100 files added (on-disk size: 67089.4 KB)
+2958.567 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6200 files added (on-disk size: 67089.4 KB)
+2958.580 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6300 files added (on-disk size: 67089.4 KB)
+2958.592 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6400 files added (on-disk size: 67089.4 KB)
+2958.613 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6500 files added (on-disk size: 67089.4 KB)
+2958.634 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6600 files added (on-disk size: 67089.4 KB)
+2958.658 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6700 files added (on-disk size: 67089.4 KB)
+2958.678 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6800 files added (on-disk size: 67089.4 KB)
+2958.701 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6900 files added (on-disk size: 67089.4 KB)
+2958.721 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7000 files added (on-disk size: 67089.4 KB)
+2958.741 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7100 files added (on-disk size: 67089.4 KB)
+2958.762 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7200 files added (on-disk size: 67089.4 KB)
+2958.782 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7300 files added (on-disk size: 67089.4 KB)
+2958.795 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7400 files added (on-disk size: 67089.4 KB)
+2958.807 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7500 files added (on-disk size: 67089.4 KB)
+2958.820 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7600 files added (on-disk size: 67089.4 KB)
+2958.839 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7700 files added (on-disk size: 67089.4 KB)
+2958.859 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7800 files added (on-disk size: 67089.4 KB)
+2958.885 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7900 files added (on-disk size: 67089.4 KB)
+2958.905 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8000 files added (on-disk size: 67089.4 KB)
+2958.926 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8100 files added (on-disk size: 67089.4 KB)
+2958.946 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8200 files added (on-disk size: 67089.4 KB)
+2958.983 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8300 files added (on-disk size: 67089.4 KB)
+2959.152 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8400 files added (on-disk size: 67089.4 KB)
+2959.306 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8500 files added (on-disk size: 67089.4 KB)
+2959.452 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8600 files added (on-disk size: 67089.4 KB)
+2959.599 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8700 files added (on-disk size: 67089.4 KB)
+2959.749 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8800 files added (on-disk size: 67089.4 KB)
+2959.898 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8900 files added (on-disk size: 67089.4 KB)
+2960.066 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9000 files added (on-disk size: 67089.4 KB)
+2960.157 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9100 files added (on-disk size: 67089.4 KB)
+2960.252 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9200 files added (on-disk size: 67089.4 KB)
+2960.363 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9300 files added (on-disk size: 67089.4 KB)
+2960.616 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9400 files added (on-disk size: 67089.4 KB)
+2960.881 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9500 files added (on-disk size: 67089.4 KB)
+2961.117 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9600 files added (on-disk size: 67089.4 KB)
+2961.365 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9700 files added (on-disk size: 67089.4 KB)
+2961.656 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9800 files added (on-disk size: 67089.4 KB)
+2961.947 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9900 files added (on-disk size: 67089.4 KB)
+2962.232 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10000 files added (on-disk size: 67089.4 KB)
+2962.519 (4) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10100 files added (on-disk size: 67089.4 KB)
+3848.068 (5) Opened log file at time: Sun, 13 Oct 2024 16:46:54 +0000 on http://localhost/wordpress
+3848.070 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 91.6M | 102M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+3848.071 (5) Free space on disk containing Updraft's temporary directory: 244362.2 MB
+3848.074 (5) Requesting backup semaphore lock (10bbf8a91175)
+3848.076 (5) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+3848.079 (5) Backup run: resumption=5, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (3848s ago), job type=backup
+3848.082 (5) Scheduling a resumption (6) after 840 seconds (1728838854) in case this run gets aborted
+3848.094 (5) Checking if we have a zip executable available
+3848.095 (5) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3848.097 (5) Creation of backups of directories: had begun; will resume
+3848.101 (5) Beginning creation of dump of plugins (split every: 400 MB)
+3848.106 (5) Terminate: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp exists with activity within the last 30 seconds (time_mod=1728838010, time_now=1728838014, diff=4, size=67289KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+3848.109 (5) Rescheduling resumption 6: moving to 900 seconds from now (1728838914)
+3848.114 (5) To decrease the likelihood of overlaps, increasing resumption interval to: 840 + 120 = 960
+4757.521 (6) Opened log file at time: Sun, 13 Oct 2024 17:02:03 +0000 on http://localhost/wordpress
+4757.525 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.5M | 102M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+4757.527 (6) Free space on disk containing Updraft's temporary directory: 244319.3 MB
+4757.532 (6) Requesting backup semaphore lock (10bbf8a91175)
+4757.537 (6) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+4757.543 (6) Backup run: resumption=6, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (4757s ago), job type=backup, previous check-in=0.04s
+4757.549 (6) Scheduling a resumption (7) after 960 seconds (1728839883) in case this run gets aborted
+4757.571 (6) Checking if we have a zip executable available
+4757.574 (6) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+4757.577 (6) Creation of backups of directories: had begun; will resume
+4757.585 (6) Beginning creation of dump of plugins (split every: 400 MB)
+4757.590 (6) Deleting old temporary file: pclzip-670bf97af0ddb.tmp
+4757.605 (6) File exists (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1728838010, time_now=1728838923, diff=913)
+4757.778 (6) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: Zip file already exists, with 9048 files
+4768.204 (6) Total entities for the zip file: 2305 directories, 10666 files (0 skipped as non-modified), 216.7 MB
+4768.207 (6) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 221918.5 KB, split: 409600 KB)
+4768.274 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 100 files added (on-disk size: 67289 KB)
+4768.339 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 200 files added (on-disk size: 67289 KB)
+4768.392 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 300 files added (on-disk size: 67289 KB)
+4768.415 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 400 files added (on-disk size: 67289 KB)
+4768.431 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 500 files added (on-disk size: 67289 KB)
+4768.445 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 600 files added (on-disk size: 67289 KB)
+4768.454 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 700 files added (on-disk size: 67289 KB)
+4768.474 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 800 files added (on-disk size: 67289 KB)
+4768.485 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 900 files added (on-disk size: 67289 KB)
+4768.497 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1000 files added (on-disk size: 67289 KB)
+4768.508 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1100 files added (on-disk size: 67289 KB)
+4768.518 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1200 files added (on-disk size: 67289 KB)
+4768.530 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1300 files added (on-disk size: 67289 KB)
+4768.547 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1400 files added (on-disk size: 67289 KB)
+4768.556 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1500 files added (on-disk size: 67289 KB)
+4768.566 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1600 files added (on-disk size: 67289 KB)
+4768.576 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1700 files added (on-disk size: 67289 KB)
+4768.586 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1800 files added (on-disk size: 67289 KB)
+4768.596 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1900 files added (on-disk size: 67289 KB)
+4768.608 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2000 files added (on-disk size: 67289 KB)
+4768.627 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2100 files added (on-disk size: 67289 KB)
+4768.642 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2200 files added (on-disk size: 67289 KB)
+4768.655 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2300 files added (on-disk size: 67289 KB)
+4768.667 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2400 files added (on-disk size: 67289 KB)
+4768.678 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2500 files added (on-disk size: 67289 KB)
+4768.690 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2600 files added (on-disk size: 67289 KB)
+4768.702 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2700 files added (on-disk size: 67289 KB)
+4768.712 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2800 files added (on-disk size: 67289 KB)
+4768.722 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2900 files added (on-disk size: 67289 KB)
+4768.731 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3000 files added (on-disk size: 67289 KB)
+4768.742 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3100 files added (on-disk size: 67289 KB)
+4768.758 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3200 files added (on-disk size: 67289 KB)
+4768.768 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3300 files added (on-disk size: 67289 KB)
+4768.784 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3400 files added (on-disk size: 67289 KB)
+4768.794 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3500 files added (on-disk size: 67289 KB)
+4768.809 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3600 files added (on-disk size: 67289 KB)
+4768.819 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3700 files added (on-disk size: 67289 KB)
+4768.829 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3800 files added (on-disk size: 67289 KB)
+4768.839 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3900 files added (on-disk size: 67289 KB)
+4768.849 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4000 files added (on-disk size: 67289 KB)
+4768.860 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4100 files added (on-disk size: 67289 KB)
+4768.869 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4200 files added (on-disk size: 67289 KB)
+4768.885 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4300 files added (on-disk size: 67289 KB)
+4768.896 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4400 files added (on-disk size: 67289 KB)
+4768.929 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4500 files added (on-disk size: 67289 KB)
+4768.954 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4600 files added (on-disk size: 67289 KB)
+4768.963 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4700 files added (on-disk size: 67289 KB)
+4768.973 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4800 files added (on-disk size: 67289 KB)
+4768.984 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4900 files added (on-disk size: 67289 KB)
+4768.995 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5000 files added (on-disk size: 67289 KB)
+4769.033 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5100 files added (on-disk size: 67289 KB)
+4769.083 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5200 files added (on-disk size: 67289 KB)
+4769.153 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5300 files added (on-disk size: 67289 KB)
+4769.198 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5400 files added (on-disk size: 67289 KB)
+4769.268 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5500 files added (on-disk size: 67289 KB)
+4769.326 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5600 files added (on-disk size: 67289 KB)
+4769.340 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5700 files added (on-disk size: 67289 KB)
+4769.355 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5800 files added (on-disk size: 67289 KB)
+4769.365 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5900 files added (on-disk size: 67289 KB)
+4769.376 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6000 files added (on-disk size: 67289 KB)
+4769.393 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6100 files added (on-disk size: 67289 KB)
+4769.416 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6200 files added (on-disk size: 67289 KB)
+4769.436 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6300 files added (on-disk size: 67289 KB)
+4769.453 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6400 files added (on-disk size: 67289 KB)
+4769.468 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6500 files added (on-disk size: 67289 KB)
+4769.478 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6600 files added (on-disk size: 67289 KB)
+4769.494 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6700 files added (on-disk size: 67289 KB)
+4769.504 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6800 files added (on-disk size: 67289 KB)
+4769.514 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6900 files added (on-disk size: 67289 KB)
+4769.524 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7000 files added (on-disk size: 67289 KB)
+4769.535 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7100 files added (on-disk size: 67289 KB)
+4769.551 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7200 files added (on-disk size: 67289 KB)
+4769.565 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7300 files added (on-disk size: 67289 KB)
+4769.576 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7400 files added (on-disk size: 67289 KB)
+4769.595 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7500 files added (on-disk size: 67289 KB)
+4769.618 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7600 files added (on-disk size: 67289 KB)
+4769.640 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7700 files added (on-disk size: 67289 KB)
+4769.653 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7800 files added (on-disk size: 67289 KB)
+4769.664 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7900 files added (on-disk size: 67289 KB)
+4769.677 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8000 files added (on-disk size: 67289 KB)
+4769.687 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8100 files added (on-disk size: 67289 KB)
+4769.697 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8200 files added (on-disk size: 67289 KB)
+4769.715 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8300 files added (on-disk size: 67289 KB)
+4769.774 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8400 files added (on-disk size: 67289 KB)
+4769.824 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8500 files added (on-disk size: 67289 KB)
+4769.952 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8600 files added (on-disk size: 67289 KB)
+4770.036 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8700 files added (on-disk size: 67289 KB)
+4770.122 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8800 files added (on-disk size: 67289 KB)
+4770.274 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8900 files added (on-disk size: 67289 KB)
+4770.370 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9000 files added (on-disk size: 67289 KB)
+4770.499 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9100 files added (on-disk size: 67289 KB)
+4770.594 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9200 files added (on-disk size: 67289 KB)
+4770.689 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9300 files added (on-disk size: 67289 KB)
+4770.763 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9400 files added (on-disk size: 67289 KB)
+4770.909 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9500 files added (on-disk size: 67289 KB)
+4771.010 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9600 files added (on-disk size: 67289 KB)
+4771.124 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9700 files added (on-disk size: 67289 KB)
+4771.259 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9800 files added (on-disk size: 67289 KB)
+4771.452 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9900 files added (on-disk size: 67289 KB)
+4771.660 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10000 files added (on-disk size: 67289 KB)
+4771.832 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10100 files added (on-disk size: 67289 KB)
+4772.053 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10200 files added (on-disk size: 67289 KB)
+4772.233 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10300 files added (on-disk size: 67289 KB)
+4772.437 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10400 files added (on-disk size: 67289 KB)
+4772.658 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10500 files added (on-disk size: 67289 KB)
+4772.883 (6) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10600 files added (on-disk size: 67289 KB)
+5770.618 (7) Opened log file at time: Sun, 13 Oct 2024 17:18:56 +0000 on http://localhost/wordpress
+5770.622 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.5M | 98M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+5770.624 (7) Free space on disk containing Updraft's temporary directory: 244504.3 MB
+5770.631 (7) Requesting backup semaphore lock (10bbf8a91175)
+5770.636 (7) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+5770.641 (7) Backup run: resumption=7, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (5770s ago), job type=backup
+5770.646 (7) Scheduling a resumption (8) after 960 seconds (1728840896) in case this run gets aborted
+5770.667 (7) Checking if we have a zip executable available
+5770.669 (7) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+5770.671 (7) Creation of backups of directories: had begun; will resume
+5770.678 (7) Beginning creation of dump of plugins (split every: 400 MB)
+5770.684 (7) File exists (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1728839823, time_now=1728839936, diff=113)
+5770.858 (7) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: Zip file already exists, with 9048 files
+5781.746 (7) Total entities for the zip file: 2305 directories, 10666 files (0 skipped as non-modified), 216.7 MB
+5781.750 (7) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 221918.5 KB, split: 409600 KB)
+5781.811 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 100 files added (on-disk size: 67544 KB)
+5781.884 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 200 files added (on-disk size: 67544 KB)
+5781.936 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 300 files added (on-disk size: 67544 KB)
+5781.952 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 400 files added (on-disk size: 67544 KB)
+5781.968 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 500 files added (on-disk size: 67544 KB)
+5781.983 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 600 files added (on-disk size: 67544 KB)
+5781.997 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 700 files added (on-disk size: 67544 KB)
+5782.011 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 800 files added (on-disk size: 67544 KB)
+5782.024 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 900 files added (on-disk size: 67544 KB)
+5782.038 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1000 files added (on-disk size: 67544 KB)
+5782.053 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1100 files added (on-disk size: 67544 KB)
+5782.068 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1200 files added (on-disk size: 67544 KB)
+5782.083 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1300 files added (on-disk size: 67544 KB)
+5782.096 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1400 files added (on-disk size: 67544 KB)
+5782.110 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1500 files added (on-disk size: 67544 KB)
+5782.125 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1600 files added (on-disk size: 67544 KB)
+5782.138 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1700 files added (on-disk size: 67544 KB)
+5782.155 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1800 files added (on-disk size: 67544 KB)
+5782.172 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1900 files added (on-disk size: 67544 KB)
+5782.193 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2000 files added (on-disk size: 67544 KB)
+5782.211 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2100 files added (on-disk size: 67544 KB)
+5782.226 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2200 files added (on-disk size: 67544 KB)
+5782.244 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2300 files added (on-disk size: 67544 KB)
+5782.262 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2400 files added (on-disk size: 67544 KB)
+5782.275 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2500 files added (on-disk size: 67544 KB)
+5782.289 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2600 files added (on-disk size: 67544 KB)
+5782.303 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2700 files added (on-disk size: 67544 KB)
+5782.319 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2800 files added (on-disk size: 67544 KB)
+5782.339 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2900 files added (on-disk size: 67544 KB)
+5782.359 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3000 files added (on-disk size: 67544 KB)
+5782.377 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3100 files added (on-disk size: 67544 KB)
+5782.391 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3200 files added (on-disk size: 67544 KB)
+5782.410 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3300 files added (on-disk size: 67544 KB)
+5782.440 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3400 files added (on-disk size: 67544 KB)
+5782.464 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3500 files added (on-disk size: 67544 KB)
+5782.487 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3600 files added (on-disk size: 67544 KB)
+5782.506 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3700 files added (on-disk size: 67544 KB)
+5782.521 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3800 files added (on-disk size: 67544 KB)
+5782.534 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3900 files added (on-disk size: 67544 KB)
+5782.548 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4000 files added (on-disk size: 67544 KB)
+5782.561 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4100 files added (on-disk size: 67544 KB)
+5782.573 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4200 files added (on-disk size: 67544 KB)
+5782.586 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4300 files added (on-disk size: 67544 KB)
+5782.599 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4400 files added (on-disk size: 67544 KB)
+5782.616 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4500 files added (on-disk size: 67544 KB)
+5782.629 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4600 files added (on-disk size: 67544 KB)
+5782.642 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4700 files added (on-disk size: 67544 KB)
+5782.655 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4800 files added (on-disk size: 67544 KB)
+5782.668 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4900 files added (on-disk size: 67544 KB)
+5782.681 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5000 files added (on-disk size: 67544 KB)
+5782.714 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5100 files added (on-disk size: 67544 KB)
+5782.782 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5200 files added (on-disk size: 67544 KB)
+5782.854 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5300 files added (on-disk size: 67544 KB)
+5782.924 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5400 files added (on-disk size: 67544 KB)
+5782.995 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5500 files added (on-disk size: 67544 KB)
+5783.060 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5600 files added (on-disk size: 67544 KB)
+5783.075 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5700 files added (on-disk size: 67544 KB)
+5783.089 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5800 files added (on-disk size: 67544 KB)
+5783.103 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5900 files added (on-disk size: 67544 KB)
+5783.116 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6000 files added (on-disk size: 67544 KB)
+5783.125 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6100 files added (on-disk size: 67544 KB)
+5783.133 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6200 files added (on-disk size: 67544 KB)
+5783.143 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6300 files added (on-disk size: 67544 KB)
+5783.151 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6400 files added (on-disk size: 67544 KB)
+5783.159 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6500 files added (on-disk size: 67544 KB)
+5783.168 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6600 files added (on-disk size: 67544 KB)
+5783.175 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6700 files added (on-disk size: 67544 KB)
+5783.185 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6800 files added (on-disk size: 67544 KB)
+5783.192 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6900 files added (on-disk size: 67544 KB)
+5783.200 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7000 files added (on-disk size: 67544 KB)
+5783.207 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7100 files added (on-disk size: 67544 KB)
+5783.216 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7200 files added (on-disk size: 67544 KB)
+5783.226 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7300 files added (on-disk size: 67544 KB)
+5783.235 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7400 files added (on-disk size: 67544 KB)
+5783.243 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7500 files added (on-disk size: 67544 KB)
+5783.251 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7600 files added (on-disk size: 67544 KB)
+5783.258 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7700 files added (on-disk size: 67544 KB)
+5783.264 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7800 files added (on-disk size: 67544 KB)
+5783.271 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7900 files added (on-disk size: 67544 KB)
+5783.280 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8000 files added (on-disk size: 67544 KB)
+5783.288 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8100 files added (on-disk size: 67544 KB)
+5783.294 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8200 files added (on-disk size: 67544 KB)
+5783.305 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8300 files added (on-disk size: 67544 KB)
+5783.360 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8400 files added (on-disk size: 67544 KB)
+5783.432 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8500 files added (on-disk size: 67544 KB)
+5783.514 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8600 files added (on-disk size: 67544 KB)
+5783.592 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8700 files added (on-disk size: 67544 KB)
+5783.717 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8800 files added (on-disk size: 67544 KB)
+5783.835 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8900 files added (on-disk size: 67544 KB)
+5783.963 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9000 files added (on-disk size: 67544 KB)
+5784.089 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9100 files added (on-disk size: 67544 KB)
+5784.215 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9200 files added (on-disk size: 67544 KB)
+5784.364 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9300 files added (on-disk size: 67544 KB)
+5784.492 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9400 files added (on-disk size: 67544 KB)
+5784.689 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9500 files added (on-disk size: 67544 KB)
+5784.861 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9600 files added (on-disk size: 67544 KB)
+5784.973 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9700 files added (on-disk size: 67544 KB)
+5785.090 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9800 files added (on-disk size: 67544 KB)
+5785.268 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9900 files added (on-disk size: 67544 KB)
+5785.435 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10000 files added (on-disk size: 67544 KB)
+5785.593 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10100 files added (on-disk size: 67544 KB)
+5785.790 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10200 files added (on-disk size: 67544 KB)
+5786.006 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10300 files added (on-disk size: 67544 KB)
+5786.244 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10400 files added (on-disk size: 67544 KB)
+5786.455 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10500 files added (on-disk size: 67544 KB)
+5786.668 (7) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10600 files added (on-disk size: 67544 KB)
+6766.703 (8) Opened log file at time: Sun, 13 Oct 2024 17:35:32 +0000 on http://localhost/wordpress
+6766.706 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.5M | 100M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+6766.708 (8) Free space on disk containing Updraft's temporary directory: 242133.6 MB
+6766.712 (8) Requesting backup semaphore lock (10bbf8a91175)
+6766.715 (8) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+6766.719 (8) Backup run: resumption=8, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (6766s ago), job type=backup
+6766.723 (8) Scheduling a resumption (9) after 960 seconds (1728841892) in case this run gets aborted
+6766.739 (8) Checking if we have a zip executable available
+6766.741 (8) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+6766.743 (8) Creation of backups of directories: had begun; will resume
+6766.748 (8) Beginning creation of dump of plugins (split every: 400 MB)
+6766.748 (8) Opened log file at time: Sun, 13 Oct 2024 17:35:32 +0000 on http://localhost/wordpress
+6766.752 (8) Deleting old PclZip temporary file: pclzip-670c008f3da44.tmp (from wordpress)
+6766.752 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.5M | 100M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+6766.755 (8) Free space on disk containing Updraft's temporary directory: 242192.4 MB
+6766.757 (8) File exists (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1728840836, time_now=1728840932, diff=96)
+6766.758 (8) Requesting backup semaphore lock (10bbf8a91175)
+6766.760 (8) [Debug] Lock option (updraft_lock_10bbf8a91175, wp_options) already existed in the database
+6766.761 (8) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) could not be acquired (it is locked)
+6766.763 (8) Failed to gain semaphore lock (10bbf8a91175) - another resumption for this job is apparently already active
+6766.764 (8) Failed to get backup job lock; possible overlapping resumptions - will abort this instance
+6766.937 (8) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: Zip file already exists, with 9048 files
+6778.445 (8) Total entities for the zip file: 2305 directories, 10666 files (0 skipped as non-modified), 216.7 MB
+6778.452 (8) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 221918.5 KB, split: 409600 KB)
+6778.511 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 100 files added (on-disk size: 67747.1 KB)
+6778.593 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 200 files added (on-disk size: 67747.1 KB)
+6778.645 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 300 files added (on-disk size: 67747.1 KB)
+6778.668 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 400 files added (on-disk size: 67747.1 KB)
+6778.694 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 500 files added (on-disk size: 67747.1 KB)
+6778.710 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 600 files added (on-disk size: 67747.1 KB)
+6778.727 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 700 files added (on-disk size: 67747.1 KB)
+6778.742 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 800 files added (on-disk size: 67747.1 KB)
+6778.757 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 900 files added (on-disk size: 67747.1 KB)
+6778.775 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1000 files added (on-disk size: 67747.1 KB)
+6778.792 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1100 files added (on-disk size: 67747.1 KB)
+6778.808 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1200 files added (on-disk size: 67747.1 KB)
+6778.824 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1300 files added (on-disk size: 67747.1 KB)
+6778.841 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1400 files added (on-disk size: 67747.1 KB)
+6778.857 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1500 files added (on-disk size: 67747.1 KB)
+6778.873 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1600 files added (on-disk size: 67747.1 KB)
+6778.891 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1700 files added (on-disk size: 67747.1 KB)
+6778.912 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1800 files added (on-disk size: 67747.1 KB)
+6778.929 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 1900 files added (on-disk size: 67747.1 KB)
+6778.945 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2000 files added (on-disk size: 67747.1 KB)
+6778.961 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2100 files added (on-disk size: 67747.1 KB)
+6778.978 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2200 files added (on-disk size: 67747.1 KB)
+6778.996 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2300 files added (on-disk size: 67747.1 KB)
+6779.012 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2400 files added (on-disk size: 67747.1 KB)
+6779.029 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2500 files added (on-disk size: 67747.1 KB)
+6779.045 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2600 files added (on-disk size: 67747.1 KB)
+6779.062 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2700 files added (on-disk size: 67747.1 KB)
+6779.079 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2800 files added (on-disk size: 67747.1 KB)
+6779.100 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 2900 files added (on-disk size: 67747.1 KB)
+6779.116 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3000 files added (on-disk size: 67747.1 KB)
+6779.135 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3100 files added (on-disk size: 67747.1 KB)
+6779.158 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3200 files added (on-disk size: 67747.1 KB)
+6779.177 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3300 files added (on-disk size: 67747.1 KB)
+6779.198 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3400 files added (on-disk size: 67747.1 KB)
+6779.216 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3500 files added (on-disk size: 67747.1 KB)
+6779.236 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3600 files added (on-disk size: 67747.1 KB)
+6779.256 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3700 files added (on-disk size: 67747.1 KB)
+6779.273 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3800 files added (on-disk size: 67747.1 KB)
+6779.290 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 3900 files added (on-disk size: 67747.1 KB)
+6779.309 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4000 files added (on-disk size: 67747.1 KB)
+6779.325 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4100 files added (on-disk size: 67747.1 KB)
+6779.342 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4200 files added (on-disk size: 67747.1 KB)
+6779.359 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4300 files added (on-disk size: 67747.1 KB)
+6779.377 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4400 files added (on-disk size: 67747.1 KB)
+6779.392 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4500 files added (on-disk size: 67747.1 KB)
+6779.409 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4600 files added (on-disk size: 67747.1 KB)
+6779.424 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4700 files added (on-disk size: 67747.1 KB)
+6779.471 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4800 files added (on-disk size: 67747.1 KB)
+6779.495 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 4900 files added (on-disk size: 67747.1 KB)
+6779.516 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5000 files added (on-disk size: 67747.1 KB)
+6779.563 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5100 files added (on-disk size: 67747.1 KB)
+6779.651 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5200 files added (on-disk size: 67747.1 KB)
+6779.729 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5300 files added (on-disk size: 67747.1 KB)
+6779.801 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5400 files added (on-disk size: 67747.1 KB)
+6779.884 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5500 files added (on-disk size: 67747.1 KB)
+6779.954 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5600 files added (on-disk size: 67747.1 KB)
+6779.971 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5700 files added (on-disk size: 67747.1 KB)
+6779.983 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5800 files added (on-disk size: 67747.1 KB)
+6779.998 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 5900 files added (on-disk size: 67747.1 KB)
+6780.012 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6000 files added (on-disk size: 67747.1 KB)
+6780.036 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6100 files added (on-disk size: 67747.1 KB)
+6780.051 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6200 files added (on-disk size: 67747.1 KB)
+6780.066 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6300 files added (on-disk size: 67747.1 KB)
+6780.081 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6400 files added (on-disk size: 67747.1 KB)
+6780.096 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6500 files added (on-disk size: 67747.1 KB)
+6780.110 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6600 files added (on-disk size: 67747.1 KB)
+6780.124 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6700 files added (on-disk size: 67747.1 KB)
+6780.137 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6800 files added (on-disk size: 67747.1 KB)
+6780.155 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 6900 files added (on-disk size: 67747.1 KB)
+6780.172 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7000 files added (on-disk size: 67747.1 KB)
+6780.189 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7100 files added (on-disk size: 67747.1 KB)
+6780.203 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7200 files added (on-disk size: 67747.1 KB)
+6780.218 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7300 files added (on-disk size: 67747.1 KB)
+6780.232 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7400 files added (on-disk size: 67747.1 KB)
+6780.246 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7500 files added (on-disk size: 67747.1 KB)
+6780.261 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7600 files added (on-disk size: 67747.1 KB)
+6780.275 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7700 files added (on-disk size: 67747.1 KB)
+6780.291 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7800 files added (on-disk size: 67747.1 KB)
+6780.307 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 7900 files added (on-disk size: 67747.1 KB)
+6780.321 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8000 files added (on-disk size: 67747.1 KB)
+6780.335 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8100 files added (on-disk size: 67747.1 KB)
+6780.349 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8200 files added (on-disk size: 67747.1 KB)
+6780.373 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8300 files added (on-disk size: 67747.1 KB)
+6780.480 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8400 files added (on-disk size: 67747.1 KB)
+6780.609 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8500 files added (on-disk size: 67747.1 KB)
+6780.765 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8600 files added (on-disk size: 67747.1 KB)
+6780.889 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8700 files added (on-disk size: 67747.1 KB)
+6781.025 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8800 files added (on-disk size: 67747.1 KB)
+6781.151 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 8900 files added (on-disk size: 67747.1 KB)
+6781.319 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9000 files added (on-disk size: 67747.1 KB)
+6781.444 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9100 files added (on-disk size: 67747.1 KB)
+6781.551 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9200 files added (on-disk size: 67747.1 KB)
+6781.679 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9300 files added (on-disk size: 67747.1 KB)
+6781.794 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9400 files added (on-disk size: 67747.1 KB)
+6781.931 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9500 files added (on-disk size: 67747.1 KB)
+6782.051 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9600 files added (on-disk size: 67747.1 KB)
+6782.168 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9700 files added (on-disk size: 67747.1 KB)
+6782.306 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9800 files added (on-disk size: 67747.1 KB)
+6782.509 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 9900 files added (on-disk size: 67747.1 KB)
+6782.681 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10000 files added (on-disk size: 67747.1 KB)
+6782.869 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10100 files added (on-disk size: 67747.1 KB)
+6783.089 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10200 files added (on-disk size: 67747.1 KB)
+6783.302 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10300 files added (on-disk size: 67747.1 KB)
+6783.527 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10400 files added (on-disk size: 67747.1 KB)
+6783.772 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10500 files added (on-disk size: 67747.1 KB)
+6784.001 (8) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: 10600 files added (on-disk size: 67747.1 KB)
+7757.783 (9) Opened log file at time: Sun, 13 Oct 2024 17:52:03 +0000 on http://localhost/wordpress
+7757.787 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.6 WP: 6.6.2 PHP: 8.2.12 (apache2handler, Windows NT DK 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 94.5M | 100M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+7757.790 (9) Free space on disk containing Updraft's temporary directory: 241683.9 MB
+7757.795 (9) Requesting backup semaphore lock (10bbf8a91175)
+7757.799 (9) [Info] Lock (updraft_lock_10bbf8a91175, wp_options) acquired
+7757.805 (9) Backup run: resumption=9, nonce=10bbf8a91175, file_nonce=10bbf8a91175 begun at=1728834166 (7757s ago), job type=backup
+7757.810 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+7757.818 (9) Scheduling a resumption (10) after 960 seconds (1728842883); but the job will then be aborted unless something happens this time
+7757.848 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+7757.851 (9) Creation of backups of directories: had begun; will resume
+7757.870 (9) Beginning creation of dump of plugins (split every: 400 MB)
+7757.878 (9) Deleting old PclZip temporary file: pclzip-670c048465cb8.tmp (from wordpress)
+7757.888 (9) File exists (C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp), but was not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1728841832, time_now=1728841923, diff=91)
+7758.199 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.tmp: Zip file already exists, with 9048 files
+7758.210 (9) No check-in on last two runs; bumping index and reducing zip split to: 200 MB
+7759.951 (9) Creating zip file manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.list-temp.tmp)
+7760.151 (9) Successfully created zip file manifest (size: 780287)
+7760.166 (9) Created plugins zip (0) - 67948.7 KB in 0.3 s (214578.7 KB/s) (checksums: sha1: 7ce62da3c95bbb9c43d805db21487dac571e1374, sha256: 07c4e6aafabe7291685667eeae692db3270deb64c6427d75cfa01b0c0f2f1865)
+7760.199 (9) Cloud backup selection (1/1): none with instance (1/1) (last)
+7760.201 (9) No remote despatch: user chose no remote backup service
+7760.204 (9) Recording as successfully uploaded: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip
+7760.212 (9) Deleting zip manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip.list.tmp)
+7760.222 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7760.226 (9) Number of backup sets in history: 1; groups (db): 1
+7760.229 (9) Examining (for databases) backup set with group_id=0, nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7760.232 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7760.235 (9) Number of backup sets in history: 1; groups (files): 1
+7760.237 (9) Examining (for files) backup set with nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7760.238 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7760.240 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7777.693 (9) Total entities for the zip file: 2305 directories, 10666 files (0 skipped as non-modified), 216.7 MB
+7777.790 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 100 files added (on-disk size: 0 KB)
+7777.916 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 200 files added (on-disk size: 0 KB)
+7778.016 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 300 files added (on-disk size: 0 KB)
+7778.055 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 400 files added (on-disk size: 0 KB)
+7778.080 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 500 files added (on-disk size: 0 KB)
+7778.113 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 600 files added (on-disk size: 0 KB)
+7778.151 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 700 files added (on-disk size: 0 KB)
+7778.191 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 800 files added (on-disk size: 0 KB)
+7778.223 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 900 files added (on-disk size: 0 KB)
+7778.261 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1000 files added (on-disk size: 0 KB)
+7778.290 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1100 files added (on-disk size: 0 KB)
+7778.322 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1200 files added (on-disk size: 0 KB)
+7778.358 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1300 files added (on-disk size: 0 KB)
+7778.392 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1400 files added (on-disk size: 0 KB)
+7778.432 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1500 files added (on-disk size: 0 KB)
+7778.497 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1600 files added (on-disk size: 0 KB)
+7778.537 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1700 files added (on-disk size: 0 KB)
+7778.569 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1800 files added (on-disk size: 0 KB)
+7778.608 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 1900 files added (on-disk size: 0 KB)
+7778.658 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2000 files added (on-disk size: 0 KB)
+7778.708 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2100 files added (on-disk size: 0 KB)
+7778.747 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2200 files added (on-disk size: 0 KB)
+7778.784 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2300 files added (on-disk size: 0 KB)
+7778.822 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2400 files added (on-disk size: 0 KB)
+7778.850 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2500 files added (on-disk size: 0 KB)
+7778.885 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2600 files added (on-disk size: 0 KB)
+7778.924 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2700 files added (on-disk size: 0 KB)
+7778.965 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2800 files added (on-disk size: 0 KB)
+7778.993 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 2900 files added (on-disk size: 0 KB)
+7779.030 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3000 files added (on-disk size: 0 KB)
+7779.078 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3100 files added (on-disk size: 0 KB)
+7779.116 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3200 files added (on-disk size: 0 KB)
+7779.145 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3300 files added (on-disk size: 0 KB)
+7779.181 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3400 files added (on-disk size: 0 KB)
+7779.222 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3500 files added (on-disk size: 0 KB)
+7779.260 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3600 files added (on-disk size: 0 KB)
+7779.291 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3700 files added (on-disk size: 0 KB)
+7779.328 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3800 files added (on-disk size: 0 KB)
+7779.368 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 3900 files added (on-disk size: 0 KB)
+7779.408 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4000 files added (on-disk size: 0 KB)
+7779.448 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4100 files added (on-disk size: 0 KB)
+7779.493 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4200 files added (on-disk size: 0 KB)
+7779.521 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4300 files added (on-disk size: 0 KB)
+7779.560 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4400 files added (on-disk size: 0 KB)
+7779.598 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4500 files added (on-disk size: 0 KB)
+7779.637 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4600 files added (on-disk size: 0 KB)
+7779.676 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4700 files added (on-disk size: 0 KB)
+7779.722 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4800 files added (on-disk size: 0 KB)
+7779.773 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 4900 files added (on-disk size: 0 KB)
+7779.812 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5000 files added (on-disk size: 0 KB)
+7779.874 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5100 files added (on-disk size: 0 KB)
+7779.932 (9) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (2.8 MB, 295 (295) files added so far); re-opening (prior size: 0 KB)
+7810.762 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5200 files added (on-disk size: 1608.9 KB)
+7810.902 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5300 files added (on-disk size: 1608.9 KB)
+7811.036 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5400 files added (on-disk size: 1608.9 KB)
+7811.178 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5500 files added (on-disk size: 1608.9 KB)
+7811.315 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5600 files added (on-disk size: 1608.9 KB)
+7811.365 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5700 files added (on-disk size: 1608.9 KB)
+7811.408 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5800 files added (on-disk size: 1608.9 KB)
+7811.456 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 5900 files added (on-disk size: 1608.9 KB)
+7811.500 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6000 files added (on-disk size: 1608.9 KB)
+7811.544 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6100 files added (on-disk size: 1608.9 KB)
+7811.588 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6200 files added (on-disk size: 1608.9 KB)
+7811.636 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6300 files added (on-disk size: 1608.9 KB)
+7811.680 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6400 files added (on-disk size: 1608.9 KB)
+7811.730 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6500 files added (on-disk size: 1608.9 KB)
+7811.768 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6600 files added (on-disk size: 1608.9 KB)
+7811.808 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6700 files added (on-disk size: 1608.9 KB)
+7811.855 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6800 files added (on-disk size: 1608.9 KB)
+7811.893 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 6900 files added (on-disk size: 1608.9 KB)
+7811.938 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7000 files added (on-disk size: 1608.9 KB)
+7811.988 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7100 files added (on-disk size: 1608.9 KB)
+7812.037 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7200 files added (on-disk size: 1608.9 KB)
+7812.073 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7300 files added (on-disk size: 1608.9 KB)
+7812.115 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7400 files added (on-disk size: 1608.9 KB)
+7812.175 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7500 files added (on-disk size: 1608.9 KB)
+7812.217 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7600 files added (on-disk size: 1608.9 KB)
+7812.259 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7700 files added (on-disk size: 1608.9 KB)
+7812.304 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7800 files added (on-disk size: 1608.9 KB)
+7812.345 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 7900 files added (on-disk size: 1608.9 KB)
+7812.384 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8000 files added (on-disk size: 1608.9 KB)
+7812.426 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8100 files added (on-disk size: 1608.9 KB)
+7812.472 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8200 files added (on-disk size: 1608.9 KB)
+7812.511 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8300 files added (on-disk size: 1608.9 KB)
+7812.552 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8400 files added (on-disk size: 1608.9 KB)
+7812.595 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8500 files added (on-disk size: 1608.9 KB)
+7812.639 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8600 files added (on-disk size: 1608.9 KB)
+7812.678 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8700 files added (on-disk size: 1608.9 KB)
+7812.717 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8800 files added (on-disk size: 1608.9 KB)
+7812.761 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 8900 files added (on-disk size: 1608.9 KB)
+7812.801 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9000 files added (on-disk size: 1608.9 KB)
+7812.838 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9100 files added (on-disk size: 1608.9 KB)
+7812.880 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9200 files added (on-disk size: 1608.9 KB)
+7812.921 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9300 files added (on-disk size: 1608.9 KB)
+7812.967 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9400 files added (on-disk size: 1608.9 KB)
+7813.010 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9500 files added (on-disk size: 1608.9 KB)
+7813.053 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9600 files added (on-disk size: 1608.9 KB)
+7813.099 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9700 files added (on-disk size: 1608.9 KB)
+7813.144 (9) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (3.8 MB, 457 (752) files added so far); re-opening (prior size: 1608.9 KB)
+7816.324 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9800 files added (on-disk size: 2671.6 KB)
+7816.467 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 9900 files added (on-disk size: 2671.6 KB)
+7816.594 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10000 files added (on-disk size: 2671.6 KB)
+7816.734 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10100 files added (on-disk size: 2671.6 KB)
+7816.865 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10200 files added (on-disk size: 2671.6 KB)
+7817.003 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10300 files added (on-disk size: 2671.6 KB)
+7817.145 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10400 files added (on-disk size: 2671.6 KB)
+7817.278 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10500 files added (on-disk size: 2671.6 KB)
+7817.412 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.tmp: 10600 files added (on-disk size: 2671.6 KB)
+7829.777 (9) Creating zip file manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.list-temp.tmp)
+7829.815 (9) Successfully created zip file manifest (size: 149462)
+7829.956 (9) Created plugins zip (1) - 4435.5 KB in 69.8 s (63.6 KB/s) (sha1: 60c4022bcb776f941ac6d9c7b36f41c031034b7b, sha256: e75d74d63dc527a159c4b563d2649153e5dd6c5e3ed8c97f79cc9a546546e84a)
+7829.978 (9) Cloud backup selection (1/1): none with instance (1/1) (last)
+7829.981 (9) No remote despatch: user chose no remote backup service
+7829.985 (9) Recording as successfully uploaded: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip
+7829.992 (9) Deleting zip manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip.list.tmp)
+7830.001 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7830.006 (9) Number of backup sets in history: 1; groups (db): 1
+7830.009 (9) Examining (for databases) backup set with group_id=0, nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7830.013 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7830.016 (9) Number of backup sets in history: 1; groups (files): 1
+7830.020 (9) Examining (for files) backup set with nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7830.020 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7830.024 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7830.047 (9) Beginning creation of dump of themes (split every: 200 MB)
+7831.372 (9) Total entities for the zip file: 351 directories, 1044 files (0 skipped as non-modified), 32.5 MB
+7831.375 (9) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 33256.5 KB, split: 204800 KB)
+7831.514 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+7831.634 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+7831.767 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+7831.899 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+7832.036 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+7832.169 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+7832.301 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+7832.423 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+7832.549 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+7832.671 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+7860.686 (9) Creating zip file manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.list-temp.tmp)
+7860.711 (9) Successfully created zip file manifest (size: 86170)
+7861.087 (9) Created themes zip (0) - 16867.5 KB in 31 s (543.7 KB/s) (sha1: ae712c1addb777852e312b6ad1fe6ce2b35e214e, sha256: 9229d7554e93b432bb89448e24e40907087a496f3c6b72d81bff9c9b82c944be)
+7861.101 (9) Cloud backup selection (1/1): none with instance (1/1) (last)
+7861.103 (9) No remote despatch: user chose no remote backup service
+7861.106 (9) Recording as successfully uploaded: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip
+7861.111 (9) Deleting zip manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip.list.tmp)
+7861.120 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7861.123 (9) Number of backup sets in history: 1; groups (db): 1
+7861.126 (9) Examining (for databases) backup set with group_id=0, nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7861.128 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7861.132 (9) Number of backup sets in history: 1; groups (files): 1
+7861.134 (9) Examining (for files) backup set with nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7861.135 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7861.137 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7861.154 (9) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+7861.156 (9) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+7861.160 (9) finding files: 2024: adding to list (1)
+7861.162 (9) finding files: astra-docs: adding to list (2)
+7861.165 (9) finding files: elementor: adding to list (3)
+7861.168 (9) finding files: fonts: adding to list (4)
+7861.170 (9) finding files: maxmegamenu: adding to list (5)
+7861.173 (9) finding files: simply-static: adding to list (6)
+7861.177 (9) finding files: slider2: adding to list (7)
+7861.181 (9) finding files: trustindex-google-widget.css: adding to list (8)
+7861.183 (9) finding files: wc-logs: adding to list (9)
+7861.186 (9) finding files: woocommerce-placeholder.png: adding to list (10)
+7861.188 (9) finding files: woocommerce_uploads: adding to list (11)
+7861.190 (9) finding files: wpforms: adding to list (12)
+7861.193 (9) Beginning creation of dump of uploads (split every: 200 MB)
+7862.146 (9) Total entities for the zip file: 161 directories, 718 files (0 skipped as non-modified), 80.6 MB
+7862.149 (9) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 82518.3 KB, split: 204800 KB)
+7862.278 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+7862.395 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+7862.544 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+7862.675 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+7862.800 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+7862.957 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+7863.109 (9) Zip: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+7907.629 (9) Creating zip file manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.list-temp.tmp)
+7907.651 (9) Successfully created zip file manifest (size: 99339)
+7908.438 (9) Created uploads zip (0) - 36796.9 KB in 47.2 s (779.1 KB/s) (sha1: 26ac7980f521e36a82bbf3c8112e862721c68736, sha256: 2111f5f658adcd5b34118a845f04f4aa864031b45e3dcb4cb7bc39a5e690d7ab)
+7908.470 (9) Cloud backup selection (1/1): none with instance (1/1) (last)
+7908.474 (9) No remote despatch: user chose no remote backup service
+7908.483 (9) Recording as successfully uploaded: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip
+7908.491 (9) Deleting zip manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip.list.tmp)
+7908.499 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7908.504 (9) Number of backup sets in history: 1; groups (db): 1
+7908.507 (9) Examining (for databases) backup set with group_id=0, nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7908.510 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7908.513 (9) Number of backup sets in history: 1; groups (files): 1
+7908.517 (9) Examining (for files) backup set with nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7908.517 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7908.520 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7908.536 (9) No backup of mu-plugins: excluded by user's options
+7908.543 (9) Beginning backup of other directories found in the content directory (index: 0)
+7908.546 (9) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+7908.549 (9) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+7908.553 (9) finding files: ai1wm-backups: skipping: excluded by options (glob)
+7908.556 (9) finding files: index.php: adding to list (1)
+7908.559 (9) finding files: plugins: skipping: this is the plugins directory
+7908.562 (9) finding files: themes: skipping: this is the themes directory
+7908.564 (9) finding files: updraft: skipping: this is the updraft directory
+7908.567 (9) finding files: upgrade: skipping: excluded by options
+7908.570 (9) finding files: uploads: skipping: this is the uploads directory
+7908.591 (9) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+7908.594 (9) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 0 KB, split: 204800 KB)
+7908.614 (9) Creating zip file manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-others.zip.list-temp.tmp)
+7908.620 (9) Successfully created zip file manifest (size: 43)
+7908.656 (9) Created others zip (0) - 0.1 KB in 0.1 s (2.1 KB/s) (sha1: 8ddfc3206a9d6821d2acd18bbb9ee0faf131d74c, sha256: 77c7184c318e01cabb998871a9b20217e68c1106bb5236ac4a7689d8be7f8e6c)
+7908.671 (9) Cloud backup selection (1/1): none with instance (1/1) (last)
+7908.675 (9) No remote despatch: user chose no remote backup service
+7908.678 (9) Recording as successfully uploaded: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-others.zip
+7908.685 (9) Deleting zip manifest (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-others.zip.list.tmp)
+7908.694 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7908.699 (9) Number of backup sets in history: 1; groups (db): 1
+7908.702 (9) Examining (for databases) backup set with group_id=0, nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7908.702 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7908.705 (9) Number of backup sets in history: 1; groups (files): 1
+7908.709 (9) Examining (for files) backup set with nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7908.709 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7908.712 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+7908.741 (9) Saving backup status to database (elements: 9)
+7908.748 (9) Resuming creation of database dump (WordPress DB)
+7908.753 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+7908.882 (9) Table wp_options: Total expected rows (via COUNT): 536
+7909.128 (9) Table wp_options: Rows added in this batch (next record: 1388): 532 (uncompressed bytes in this segment=3221730) in 0.33 seconds
+7909.161 (9) Table wp_options: finishing file(s) (2, 428.9 KB)
+7909.196 (9) Table wp_users: Total expected rows (via COUNT): 1
+7909.198 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.206 (9) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1165) in 0.03 seconds
+7909.234 (9) Table wp_users: finishing file(s) (2, 0.6 KB)
+7909.266 (9) Table wp_usermeta: Total expected rows (via COUNT): 28
+7909.269 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.277 (9) Table wp_usermeta: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=2935) in 0.03 seconds
+7909.303 (9) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+7909.351 (9) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 19
+7909.355 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.364 (9) Table wp_actionscheduler_actions: Rows added in this batch (next record: 72): 19 (uncompressed bytes in this segment=9861) in 0.04 seconds
+7909.397 (9) Table wp_actionscheduler_actions: finishing file(s) (2, 1.5 KB)
+7909.429 (9) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+7909.439 (9) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.02 seconds
+7909.467 (9) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+7909.504 (9) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+7909.508 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.516 (9) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=685) in 0.03 seconds
+7909.543 (9) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+7909.578 (9) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 43
+7909.581 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.591 (9) Table wp_actionscheduler_logs: Rows added in this batch (next record: 43): 43 (uncompressed bytes in this segment=5033) in 0.03 seconds
+7909.614 (9) Table wp_actionscheduler_logs: finishing file(s) (2, 1 KB)
+7909.648 (9) Table wp_commentmeta: Total expected rows (via COUNT): 0
+7909.656 (9) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.03 seconds
+7909.684 (9) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+7909.717 (9) Table wp_comments: Total expected rows (via COUNT): 1
+7909.720 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.733 (9) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1932) in 0.03 seconds
+7909.756 (9) Table wp_comments: finishing file(s) (2, 0.8 KB)
+7909.784 (9) Table wp_links: Total expected rows (via COUNT): 0
+7909.793 (9) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+7909.816 (9) Table wp_links: finishing file(s) (2, 0.5 KB)
+7909.870 (9) Table wp_postmeta: Total expected rows (via COUNT): 589
+7909.874 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7909.944 (9) Table wp_postmeta: Rows added in this batch (next record: 706): 500 (uncompressed bytes in this segment=190610) in 0.11 seconds
+7909.993 (9) Table wp_postmeta: Total expected rows (via COUNT): 589
+7909.997 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=, known_bigger_than_table=1)
+7910.024 (9) Table wp_postmeta: Rows added in this batch (next record: 854): 89 (uncompressed bytes in this segment=362531) in 0.05 seconds
+7910.051 (9) Table wp_postmeta: finishing file(s) (3, 22.9 KB)
+7910.096 (9) Table wp_posts: Total expected rows (via COUNT): 171
+7910.100 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.158 (9) Table wp_posts: Rows added in this batch (next record: 183): 171 (uncompressed bytes in this segment=347111) in 0.09 seconds
+7910.183 (9) Table wp_posts: finishing file(s) (2, 27.2 KB)
+7910.209 (9) Table wp_term_relationships: Total expected rows (approximate): 33
+7910.218 (9) Table wp_term_relationships: Rows added in this batch (next record: 100000): 33 (uncompressed bytes in this segment=1161) in 0.02 seconds
+7910.242 (9) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+7910.278 (9) Table wp_term_taxonomy: Total expected rows (via COUNT): 20
+7910.280 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.290 (9) Table wp_term_taxonomy: Rows added in this batch (next record: 21): 20 (uncompressed bytes in this segment=1696) in 0.03 seconds
+7910.321 (9) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+7910.383 (9) Table wp_termmeta: Total expected rows (via COUNT): 0
+7910.389 (9) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.05 seconds
+7910.415 (9) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+7910.450 (9) Table wp_terms: Total expected rows (via COUNT): 20
+7910.456 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.472 (9) Table wp_terms: Rows added in this batch (next record: 21): 20 (uncompressed bytes in this segment=1447) in 0.04 seconds
+7910.509 (9) Table wp_terms: finishing file(s) (2, 0.6 KB)
+7910.542 (9) Table wp_e_events: Total expected rows (via COUNT): 0
+7910.550 (9) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+7910.573 (9) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+7910.610 (9) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 12
+7910.613 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.622 (9) Table wp_nextend2_image_storage: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=3054) in 0.03 seconds
+7910.646 (9) Table wp_nextend2_image_storage: finishing file(s) (2, 1 KB)
+7910.682 (9) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 3
+7910.686 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.690 (9) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10011): 3 (uncompressed bytes in this segment=1257) in 0.03 seconds
+7910.711 (9) Table wp_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+7910.739 (9) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+7910.747 (9) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.02 seconds
+7910.768 (9) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+7910.796 (9) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 3
+7910.799 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.815 (9) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=50210) in 0.03 seconds
+7910.839 (9) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 5.4 KB)
+7910.871 (9) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 2
+7910.881 (9) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=742) in 0.02 seconds
+7910.905 (9) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+7910.940 (9) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 17
+7910.943 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7910.970 (9) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 18): 17 (uncompressed bytes in this segment=82609) in 0.05 seconds
+7911.011 (9) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 5.9 KB)
+7911.042 (9) Table wp_simply_static_pages: Total expected rows (approximate): 7702
+7911.684 (9) Table wp_simply_static_pages: Rows added in this batch (next record: 12450): 12450 (uncompressed bytes in this segment=4750850) in 0.66 seconds
+7911.709 (9) Table wp_simply_static_pages: finishing file(s) (2, 167.2 KB)
+7911.739 (9) Table wp_trustindex_google_reviews: Total expected rows (approximate): 10
+7911.745 (9) Table wp_trustindex_google_reviews: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=7033) in 0.02 seconds
+7911.769 (9) Table wp_trustindex_google_reviews: finishing file(s) (2, 3 KB)
+7911.807 (9) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 83
+7911.810 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7911.834 (9) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 493): 83 (uncompressed bytes in this segment=17192) in 0.05 seconds
+7911.866 (9) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+7911.922 (9) Table wp_wc_admin_notes: Total expected rows (via COUNT): 56
+7911.925 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7911.940 (9) Table wp_wc_admin_notes: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=28461) in 0.05 seconds
+7911.975 (9) Table wp_wc_admin_notes: finishing file(s) (2, 5.9 KB)
+7912.005 (9) Table wp_wc_category_lookup: Total expected rows (approximate): 1
+7912.014 (9) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=589) in 0.02 seconds
+7912.035 (9) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+7912.065 (9) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+7912.069 (9) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1018) in 0.02 seconds
+7912.092 (9) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+7912.121 (9) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+7912.126 (9) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.02 seconds
+7912.149 (9) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+7912.178 (9) Table wp_wc_order_addresses: Total expected rows (via COUNT): 0
+7912.182 (9) Table wp_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1058) in 0.02 seconds
+7912.211 (9) Table wp_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+7912.246 (9) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+7912.251 (9) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.02 seconds
+7912.275 (9) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+7912.304 (9) Table wp_wc_order_operational_data: Total expected rows (via COUNT): 0
+7912.309 (9) Table wp_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1399) in 0.02 seconds
+7912.331 (9) Table wp_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+7912.360 (9) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+7912.364 (9) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.02 seconds
+7912.384 (9) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+7912.419 (9) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+7912.425 (9) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1192) in 0.02 seconds
+7912.483 (9) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+7912.518 (9) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+7912.524 (9) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.02 seconds
+7912.548 (9) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+7912.577 (9) Table wp_wc_orders: Total expected rows (via COUNT): 0
+7912.582 (9) Table wp_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1417) in 0.02 seconds
+7912.606 (9) Table wp_wc_orders: finishing file(s) (2, 0.5 KB)
+7912.638 (9) Table wp_wc_orders_meta: Total expected rows (via COUNT): 0
+7912.645 (9) Table wp_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.02 seconds
+7912.669 (9) Table wp_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+7912.696 (9) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+7912.704 (9) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=831) in 0.02 seconds
+7912.726 (9) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+7912.760 (9) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+7912.763 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7912.771 (9) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=885) in 0.03 seconds
+7912.793 (9) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+7912.827 (9) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+7912.835 (9) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1296) in 0.03 seconds
+7912.860 (9) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+7912.893 (9) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+7912.897 (9) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=667) in 0.02 seconds
+7912.919 (9) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+7912.945 (9) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+7912.953 (9) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.02 seconds
+7912.978 (9) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+7913.004 (9) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+7913.007 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7913.013 (9) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=750) in 0.02 seconds
+7913.034 (9) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+7913.063 (9) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+7913.071 (9) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.02 seconds
+7913.093 (9) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+7913.127 (9) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+7913.131 (9) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=873) in 0.02 seconds
+7913.162 (9) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+7913.197 (9) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+7913.200 (9) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=835) in 0.02 seconds
+7913.221 (9) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+7913.254 (9) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+7913.258 (9) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1410) in 0.02 seconds
+7913.288 (9) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+7913.327 (9) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+7913.331 (9) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.03 seconds
+7913.360 (9) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+7913.395 (9) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+7913.402 (9) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.03 seconds
+7913.429 (9) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+7913.494 (9) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+7913.504 (9) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.03 seconds
+7913.530 (9) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+7913.566 (9) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+7913.574 (9) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.03 seconds
+7913.602 (9) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+7913.634 (9) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+7913.644 (9) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.03 seconds
+7913.672 (9) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+7913.708 (9) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+7913.711 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7913.719 (9) Table wp_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2126) in 0.03 seconds
+7913.749 (9) Table wp_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+7913.778 (9) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+7913.787 (9) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.02 seconds
+7913.806 (9) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+7913.839 (9) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+7913.843 (9) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.02 seconds
+7913.870 (9) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+7913.900 (9) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+7913.904 (9) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=602) in 0.02 seconds
+7913.927 (9) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.3 KB)
+7913.980 (9) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+7913.984 (9) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=786) in 0.03 seconds
+7914.005 (9) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+7914.036 (9) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+7914.041 (9) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1142) in 0.02 seconds
+7914.066 (9) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+7914.102 (9) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+7914.106 (9) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.02 seconds
+7914.130 (9) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+7914.167 (9) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+7914.174 (9) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.03 seconds
+7914.200 (9) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+7914.236 (9) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+7914.244 (9) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.03 seconds
+7914.267 (9) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+7914.299 (9) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+7914.302 (9) Last successful resumption was 10 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+7914.308 (9) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 6): 5 (uncompressed bytes in this segment=978) in 0.03 seconds
+7914.337 (9) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+7914.374 (9) Table wp_wpsr_caches: Total expected rows (via COUNT): 0
+7914.381 (9) Table wp_wpsr_caches: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.03 seconds
+7914.408 (9) Table wp_wpsr_caches: finishing file(s) (2, 0.4 KB)
+7914.462 (9) Table wp_wpsr_optimize_images: Total expected rows (via COUNT): 0
+7914.467 (9) Table wp_wpsr_optimize_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=968) in 0.04 seconds
+7914.508 (9) Table wp_wpsr_optimize_images: finishing file(s) (2, 0.5 KB)
+7914.543 (9) Table wp_wpsr_reviews: Total expected rows (via COUNT): 0
+7914.547 (9) Table wp_wpsr_reviews: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1081) in 0.02 seconds
+7914.571 (9) Table wp_wpsr_reviews: finishing file(s) (2, 0.4 KB)
+7914.574 (9) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db.gz (line 1925, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+7914.581 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_options.table.tmpr1389.gz (1/66/fopen): adding to final database dump
+7914.624 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_options.table.gz (2/66/fopen): adding to final database dump
+7914.627 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_users.table.tmpr2.gz (3/66/fopen): adding to final database dump
+7914.630 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_users.table.gz (4/66/fopen): adding to final database dump
+7914.633 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_usermeta.table.tmpr29.gz (5/66/fopen): adding to final database dump
+7914.637 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_usermeta.table.gz (6/66/fopen): adding to final database dump
+7914.641 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_actions.table.tmpr73.gz (7/66/fopen): adding to final database dump
+7914.645 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_actions.table.gz (8/66/fopen): adding to final database dump
+7914.648 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/66/fopen): adding to final database dump
+7914.652 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_claims.table.gz (10/66/fopen): adding to final database dump
+7914.655 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/66/fopen): adding to final database dump
+7914.659 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_groups.table.gz (12/66/fopen): adding to final database dump
+7914.663 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_logs.table.tmpr44.gz (13/66/fopen): adding to final database dump
+7914.668 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_actionscheduler_logs.table.gz (14/66/fopen): adding to final database dump
+7914.671 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_commentmeta.table.tmpr0.gz (15/66/fopen): adding to final database dump
+7914.675 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_commentmeta.table.gz (16/66/fopen): adding to final database dump
+7914.679 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_comments.table.tmpr2.gz (17/66/fopen): adding to final database dump
+7914.684 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_comments.table.gz (18/66/fopen): adding to final database dump
+7914.689 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_links.table.tmpr0.gz (19/66/fopen): adding to final database dump
+7914.694 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_links.table.gz (20/66/fopen): adding to final database dump
+7914.698 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_postmeta.table.tmpr706.gz (21/66/fopen): adding to final database dump
+7914.703 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_postmeta.table.tmpr855.gz (22/66/fopen): adding to final database dump
+7914.711 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_postmeta.table.gz (23/66/fopen): adding to final database dump
+7914.716 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_posts.table.tmpr184.gz (24/66/fopen): adding to final database dump
+7914.726 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_posts.table.gz (25/66/fopen): adding to final database dump
+7914.731 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_term_relationships.table.tmpr100001.gz (26/66/fopen): adding to final database dump
+7914.737 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_term_relationships.table.gz (27/66/fopen): adding to final database dump
+7914.741 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_term_taxonomy.table.tmpr22.gz (28/66/fopen): adding to final database dump
+7914.746 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_term_taxonomy.table.gz (29/66/fopen): adding to final database dump
+7914.749 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_termmeta.table.tmpr0.gz (30/66/fopen): adding to final database dump
+7914.754 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_termmeta.table.gz (31/66/fopen): adding to final database dump
+7914.757 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_terms.table.tmpr22.gz (32/66/fopen): adding to final database dump
+7914.762 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_terms.table.gz (33/66/fopen): adding to final database dump
+7914.766 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_e_events.table.tmpr0.gz (34/66/fopen): adding to final database dump
+7914.770 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_e_events.table.gz (35/66/fopen): adding to final database dump
+7914.773 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_image_storage.table.tmpr13.gz (36/66/fopen): adding to final database dump
+7914.777 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_image_storage.table.gz (37/66/fopen): adding to final database dump
+7914.780 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_section_storage.table.tmpr10012.gz (38/66/fopen): adding to final database dump
+7914.785 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_section_storage.table.gz (39/66/fopen): adding to final database dump
+7914.788 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (40/66/fopen): adding to final database dump
+7914.791 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_generators.table.gz (41/66/fopen): adding to final database dump
+7914.794 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_sliders.table.tmpr4.gz (42/66/fopen): adding to final database dump
+7914.799 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_sliders.table.gz (43/66/fopen): adding to final database dump
+7914.801 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (44/66/fopen): adding to final database dump
+7914.805 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (45/66/fopen): adding to final database dump
+7914.807 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_slides.table.tmpr19.gz (46/66/fopen): adding to final database dump
+7914.812 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_nextend2_smartslider3_slides.table.gz (47/66/fopen): adding to final database dump
+7914.816 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_simply_static_pages.table.tmpr12451.gz (48/66/fopen): adding to final database dump
+7914.833 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_simply_static_pages.table.gz (49/66/fopen): adding to final database dump
+7914.837 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_trustindex_google_reviews.table.tmpr1001.gz (50/66/fopen): adding to final database dump
+7914.841 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_trustindex_google_reviews.table.gz (51/66/fopen): adding to final database dump
+7914.844 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_admin_note_actions.table.tmpr494.gz (52/66/fopen): adding to final database dump
+7914.848 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_admin_note_actions.table.gz (53/66/fopen): adding to final database dump
+7914.852 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_admin_notes.table.tmpr57.gz (54/66/fopen): adding to final database dump
+7914.856 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_admin_notes.table.gz (55/66/fopen): adding to final database dump
+7914.859 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_category_lookup.table.tmpr1001.gz (56/66/fopen): adding to final database dump
+7914.863 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_category_lookup.table.gz (57/66/fopen): adding to final database dump
+7914.865 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_customer_lookup.table.tmpr0.gz (58/66/fopen): adding to final database dump
+7914.870 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_customer_lookup.table.gz (59/66/fopen): adding to final database dump
+7914.873 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_download_log.table.tmpr0.gz (60/66/fopen): adding to final database dump
+7914.877 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_download_log.table.gz (61/66/fopen): adding to final database dump
+7914.881 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_addresses.table.tmpr0.gz (62/66/fopen): adding to final database dump
+7914.884 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_addresses.table.gz (63/66/fopen): adding to final database dump
+7914.887 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (64/66/fopen): adding to final database dump
+7914.891 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_coupon_lookup.table.gz (65/66/fopen): adding to final database dump
+7914.894 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_operational_data.table.tmpr0.gz (66/66/fopen): adding to final database dump
+7914.897 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_operational_data.table.gz (67/66/fopen): adding to final database dump
+7914.900 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (68/66/fopen): adding to final database dump
+7914.903 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_product_lookup.table.gz (69/66/fopen): adding to final database dump
+7914.905 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_stats.table.tmpr0.gz (70/66/fopen): adding to final database dump
+7914.908 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_stats.table.gz (71/66/fopen): adding to final database dump
+7914.911 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (72/66/fopen): adding to final database dump
+7914.914 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_order_tax_lookup.table.gz (73/66/fopen): adding to final database dump
+7914.918 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_orders.table.tmpr0.gz (74/66/fopen): adding to final database dump
+7914.921 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_orders.table.gz (75/66/fopen): adding to final database dump
+7914.924 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_orders_meta.table.tmpr0.gz (76/66/fopen): adding to final database dump
+7914.927 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_orders_meta.table.gz (77/66/fopen): adding to final database dump
+7914.930 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (78/66/fopen): adding to final database dump
+7914.934 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_product_attributes_lookup.table.gz (79/66/fopen): adding to final database dump
+7914.937 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_product_download_directories.table.tmpr3.gz (80/66/fopen): adding to final database dump
+7914.941 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_product_download_directories.table.gz (81/66/fopen): adding to final database dump
+7914.943 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_product_meta_lookup.table.tmpr0.gz (82/66/fopen): adding to final database dump
+7914.955 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_product_meta_lookup.table.gz (83/66/fopen): adding to final database dump
+7914.959 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_rate_limits.table.tmpr0.gz (84/66/fopen): adding to final database dump
+7914.963 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_rate_limits.table.gz (85/66/fopen): adding to final database dump
+7914.966 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_reserved_stock.table.tmpr1.gz (86/66/fopen): adding to final database dump
+7914.971 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_reserved_stock.table.gz (87/66/fopen): adding to final database dump
+7914.975 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (88/66/fopen): adding to final database dump
+7914.980 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_tax_rate_classes.table.gz (89/66/fopen): adding to final database dump
+7914.983 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_webhooks.table.tmpr0.gz (90/66/fopen): adding to final database dump
+7914.986 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wc_webhooks.table.gz (91/66/fopen): adding to final database dump
+7914.990 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (92/66/fopen): adding to final database dump
+7914.993 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_api_keys.table.gz (93/66/fopen): adding to final database dump
+7914.997 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (94/66/fopen): adding to final database dump
+7915.001 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_attribute_taxonomies.table.gz (95/66/fopen): adding to final database dump
+7915.003 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (96/66/fopen): adding to final database dump
+7915.007 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (97/66/fopen): adding to final database dump
+7915.009 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_log.table.tmpr0.gz (98/66/fopen): adding to final database dump
+7915.013 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_log.table.gz (99/66/fopen): adding to final database dump
+7915.019 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (100/66/fopen): adding to final database dump
+7915.022 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_order_itemmeta.table.gz (101/66/fopen): adding to final database dump
+7915.024 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_order_items.table.tmpr0.gz (102/66/fopen): adding to final database dump
+7915.028 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_order_items.table.gz (103/66/fopen): adding to final database dump
+7915.030 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (104/66/fopen): adding to final database dump
+7915.034 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_payment_tokenmeta.table.gz (105/66/fopen): adding to final database dump
+7915.037 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (106/66/fopen): adding to final database dump
+7915.040 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_payment_tokens.table.gz (107/66/fopen): adding to final database dump
+7915.042 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_sessions.table.tmpr2.gz (108/66/fopen): adding to final database dump
+7915.045 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_sessions.table.gz (109/66/fopen): adding to final database dump
+7915.048 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (110/66/fopen): adding to final database dump
+7915.052 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_shipping_zone_locations.table.gz (111/66/fopen): adding to final database dump
+7915.054 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (112/66/fopen): adding to final database dump
+7915.057 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_shipping_zone_methods.table.gz (113/66/fopen): adding to final database dump
+7915.060 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (114/66/fopen): adding to final database dump
+7915.063 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_shipping_zones.table.gz (115/66/fopen): adding to final database dump
+7915.066 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (116/66/fopen): adding to final database dump
+7915.069 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_tax_rate_locations.table.gz (117/66/fopen): adding to final database dump
+7915.073 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (118/66/fopen): adding to final database dump
+7915.076 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_woocommerce_tax_rates.table.gz (119/66/fopen): adding to final database dump
+7915.079 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_logs.table.tmpr0.gz (120/66/fopen): adding to final database dump
+7915.082 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_logs.table.gz (121/66/fopen): adding to final database dump
+7915.086 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (122/66/fopen): adding to final database dump
+7915.089 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_payment_meta.table.gz (123/66/fopen): adding to final database dump
+7915.091 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_payments.table.tmpr0.gz (124/66/fopen): adding to final database dump
+7915.095 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_payments.table.gz (125/66/fopen): adding to final database dump
+7915.097 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_tasks_meta.table.tmpr7.gz (126/66/fopen): adding to final database dump
+7915.101 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpforms_tasks_meta.table.gz (127/66/fopen): adding to final database dump
+7915.104 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpsr_caches.table.tmpr0.gz (128/66/fopen): adding to final database dump
+7915.107 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpsr_caches.table.gz (129/66/fopen): adding to final database dump
+7915.109 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpsr_optimize_images.table.tmpr0.gz (130/66/fopen): adding to final database dump
+7915.113 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpsr_optimize_images.table.gz (131/66/fopen): adding to final database dump
+7915.117 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpsr_reviews.table.tmpr0.gz (132/66/fopen): adding to final database dump
+7915.119 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db-table-wp_wpsr_reviews.table.gz (133/66/fopen): adding to final database dump
+7915.167 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db.gz: finished writing out complete database file (697.2 KB)
+7915.366 (9) Total database tables backed up: 66 (backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db.gz, size: 714077, sha1: 548726489f45d941456d6472ce8a8f338c603178, sha256: 1f6c202336fb8ff78d35a9d0d64d96e700236998a3dcfae334135f9969f50d3a)
+7915.390 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins.zip: plugins: This file has already been successfully uploaded
+7915.392 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-plugins2.zip: plugins: This file has already been successfully uploaded
+7915.395 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-themes.zip: themes: This file has already been successfully uploaded
+7915.397 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-uploads.zip: uploads: This file has already been successfully uploaded
+7915.400 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-others.zip: others: This file has already been successfully uploaded
+7915.403 (9) backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db.gz: db: This file has not yet been successfully uploaded: will queue
+7915.406 (9) Saving backup history. Total backup size: 123.8 MB
+7915.413 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+7915.423 (9) Cloud backup selection (1/1): none with instance (1/1) (last)
+7915.426 (9) No remote despatch: user chose no remote backup service
+7915.428 (9) Recording as successfully uploaded: backup_2024-10-13-1542_Landing_Page_10bbf8a91175-db.gz
+7915.437 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7915.454 (9) Number of backup sets in history: 2; groups (db): 1
+7915.456 (9) Examining (for databases) backup set with group_id=0, nonce=10bbf8a91175, datestamp=1728834166 (Oct 13 2024 15:42:46)
+7915.459 (9) This backup set is the backup set just made, so will not be deleted.
+7915.459 (9) Examining (for databases) backup set with group_id=0, nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7915.459 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7915.462 (9) Number of backup sets in history: 2; groups (files): 1
+7915.466 (9) Examining (for files) backup set with nonce=10bbf8a91175, datestamp=1728834166 (Oct 13 2024 15:42:46)
+7915.466 (9) This backup set is the backup set just made, so will not be deleted.
+7915.474 (9) This backup set is the backup set just made, so will not be deleted.
+7915.474 (9) This backup set is the backup set just made, so will not be deleted.
+7915.474 (9) This backup set is the backup set just made, so will not be deleted.
+7915.474 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7915.477 (9) Examining (for files) backup set with nonce=9860ef8bd8dc, datestamp=1728831233 (Oct 13 2024 14:53:53)
+7915.477 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+7915.477 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7915.485 (9) Resume backup (10bbf8a91175, 9): finish run
+7915.490 (9) [Info] Lock option (updraft_lock_10bbf8a91175, wp_options) released
+7915.494 (9) There were no errors in the uploads, so the 'resume' event (10) is being unscheduled
+7915.505 (9) No email will/can be sent - the user has not configured an email address.
+7915.507 (9) The backup succeeded and is now complete
